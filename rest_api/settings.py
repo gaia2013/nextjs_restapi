@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['nextjs-restapi-task-post.herokuapp.com', 'https://nextjs-blog-todos-mocha.vercel.app']
+ALLOWED_HOSTS = ['nextjs-restapi-task-post.herokuapp.com']
 
 
 # Application definition
@@ -59,6 +59,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
+    "https://nextjs-blog-todos-mocha.vercel.app",
 ]
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
