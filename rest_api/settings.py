@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['nextjs-restapi-task-post.herokuapp.com']
+ALLOWED_HOSTS = ['nextjs-restapi-task-post.herokuapp.com', 'https://nextjs-blog-todos-mocha.vercel.app']
 
 
 # Application definition
